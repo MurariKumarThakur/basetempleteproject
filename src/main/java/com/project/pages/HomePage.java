@@ -40,33 +40,33 @@ public class HomePage {
 	
 	public void clickOnMyAccount() {
 		
-		elementUtils.clickOnElement(myAccountDropMenu,CommonUtils.EXPLICIT_WAIT_BASIC_TIME);
+		elementUtils.clickOnElement(myAccountDropMenu);
 		
 	}
 	
 	public LoginPage selectLoginOption() {
 		
-		elementUtils.clickOnElement(loginOption,CommonUtils.EXPLICIT_WAIT_BASIC_TIME);
+		elementUtils.clickOnElement(loginOption);
 		return new LoginPage(driver);
 		
 	}
 	
 	public RegisterPage selectRegisterOption() {
 		
-		elementUtils.clickOnElement(registerOption,CommonUtils.EXPLICIT_WAIT_BASIC_TIME);
+		elementUtils.clickOnElement(registerOption);
 		return new RegisterPage(driver);
 		
 	}
 	
 	public void enterProductIntoSearchBox(String productText) {
 		
-		elementUtils.typeTextIntoElement(searchBoxField,productText,CommonUtils.EXPLICIT_WAIT_BASIC_TIME);
+		elementUtils.typeTextIntoElement(searchBoxField,productText);
 		
 	}
 	
 	public SearchResultsPage clickOnSearchButton() {
 		
-		elementUtils.clickOnElement(searchButton,CommonUtils.EXPLICIT_WAIT_BASIC_TIME);
+		elementUtils.clickOnElement(searchButton);
 		return new SearchResultsPage(driver);
 		
 	}

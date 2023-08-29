@@ -37,26 +37,26 @@ public class LoginPage {
 	
 	public void enterEmailAddress(String emailText) {
 		
-		elementUtils.typeTextIntoElement(emailField, emailText,CommonUtils.EXPLICIT_WAIT_BASIC_TIME);
+		elementUtils.typeTextIntoElement(emailField, emailText);
 		
 	}
 	
 	public void enterPassword(String passwordText) {
 		
-		elementUtils.typeTextIntoElement(passwordField, passwordText,CommonUtils.EXPLICIT_WAIT_BASIC_TIME);
+		elementUtils.typeTextIntoElement(passwordField, passwordText);
 		
 	}
 	
 	public AccountPage clickOnLoginButton() {
 		
-		elementUtils.clickOnElement(loginButton,CommonUtils.EXPLICIT_WAIT_BASIC_TIME);
+		elementUtils.clickOnElement(loginButton);
 		return new AccountPage(driver);
 		
 	}
 	
 	public String getWarningMessageText() {
 		
-		return elementUtils.getTextFromElement(warningMessage,CommonUtils.EXPLICIT_WAIT_BASIC_TIME);
+		return elementUtils.getTextFromElement(warningMessage);
 		
 	}
 

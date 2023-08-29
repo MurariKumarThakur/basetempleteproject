@@ -28,7 +28,7 @@ public class AccountPage {
 	
 	public boolean displayStatusOfEditYourAccountInformationOption() {
 		
-		return elementUtils.displayStatusOfElement(editYourAccountInformationOption,CommonUtils.EXPLICIT_WAIT_BASIC_TIME);
+		return elementUtils.displayStatusOfElement(editYourAccountInformationOption);
 		
 	}
 

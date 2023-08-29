@@ -28,7 +28,7 @@ public class AccountSuccessPage {
 	
 	public String getPageHeading() {
 		
-		return elementUtils.getTextFromElement(pageHeading,CommonUtils.EXPLICIT_WAIT_BASIC_TIME);
+		return elementUtils.getTextFromElement(pageHeading);
 		
 	}
 

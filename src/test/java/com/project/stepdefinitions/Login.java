@@ -78,8 +78,7 @@ public class Login {
 
 	@Then("User should get a proper warning message about credentials mismatch")
 	public void user_should_get_a_proper_warning_message_about_credentials_mismatch() {
-	  //Warning: No match for E-Mail Address and/or Password.
-		Assert.assertTrue(loginPage.getWarningMessageText().contains("hello"));
+		Assert.assertTrue(loginPage.getWarningMessageText().contains("Warning: No match for E-Mail Address and/or Password."));
 		
 	}
 
