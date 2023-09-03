@@ -6,6 +6,7 @@ import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
@@ -22,8 +23,9 @@ public class DriverFactory {
 	public static WebDriver initializeBrowser(String browserName) {
 		
 		if(browserName.equals("chrome")) {
-			
-			driver = new ChromeDriver();
+			ChromeOptions co = new ChromeOptions();
+			co.setBrowserVersion("115");
+			driver = new ChromeDriver(co);
 			logger.info("chrome driver initialized");
 			
 		}else if(browserName.equals("firefox")) {

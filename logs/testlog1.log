@@ -1040,3 +1040,64 @@
 2023-09-03 07:12:12,922 [main] INFO com.project.utils.ElementUtils - [[ChromeDriver: chrome on linux (75011e7fdfe8795c173c7406c09e5842)] -> xpath: //input[@id='button-search']/following-sibling::p] element is clickable
 2023-09-03 07:12:12,935 [main] INFO com.project.utils.ElementUtils - getting text from webpage There is no product that matches the search criteria.
 2023-09-03 07:12:13,047 [main] INFO com.project.hook.MyHooks - driver  quit
+2023-09-03 08:17:40,842 [main] INFO com.project.utils.ConfigReader - read property file 
+2023-09-03 08:17:43,222 [main] INFO com.project.driverfactory.DriverFactory - chrome driver initialized
+2023-09-03 08:17:46,920 [main] INFO com.project.hook.MyHooks - url loaded in browser http://tutorialsninja.com/demo/
+2023-09-03 08:18:17,385 [main] INFO com.project.utils.ConfigReader - read property file 
+2023-09-03 08:18:17,801 [main] INFO com.project.driverfactory.DriverFactory - chrome driver initialized
+2023-09-03 08:18:21,071 [main] INFO com.project.hook.MyHooks - url loaded in browser http://tutorialsninja.com/demo/
+2023-09-03 08:18:21,121 [main] INFO com.project.utils.ElementUtils - [[ChromeDriver: chrome on linux (4a60e38c77efbe7bfe5fac12574a0ef9)] -> xpath: //span[text()='My Account']] element is clickable
+2023-09-03 08:18:21,163 [main] INFO com.project.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on linux (4a60e38c77efbe7bfe5fac12574a0ef9)] -> xpath: //span[text()='My Account']]
+2023-09-03 08:18:21,203 [main] INFO com.project.utils.ElementUtils - [[ChromeDriver: chrome on linux (4a60e38c77efbe7bfe5fac12574a0ef9)] -> link text: Login] element is clickable
+2023-09-03 08:18:21,484 [main] INFO com.project.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on linux (4a60e38c77efbe7bfe5fac12574a0ef9)] -> link text: Login]
+2023-09-03 08:18:21,527 [main] INFO com.project.utils.ElementUtils - [[ChromeDriver: chrome on linux (4a60e38c77efbe7bfe5fac12574a0ef9)] -> id: input-email] element is clickable
+2023-09-03 08:18:21,626 [main] INFO com.project.utils.ElementUtils - typeTextIntoElement(), invoked and enter text  amotooricap2@gmail.com in [[ChromeDriver: chrome on linux (4a60e38c77efbe7bfe5fac12574a0ef9)] -> id: input-email]
+2023-09-03 08:18:21,661 [main] INFO com.project.utils.ElementUtils - [[ChromeDriver: chrome on linux (4a60e38c77efbe7bfe5fac12574a0ef9)] -> id: input-password] element is clickable
+2023-09-03 08:18:21,746 [main] INFO com.project.utils.ElementUtils - typeTextIntoElement(), invoked and enter text  12345 in [[ChromeDriver: chrome on linux (4a60e38c77efbe7bfe5fac12574a0ef9)] -> id: input-password]
+2023-09-03 08:18:21,782 [main] INFO com.project.utils.ElementUtils - [[ChromeDriver: chrome on linux (4a60e38c77efbe7bfe5fac12574a0ef9)] -> xpath: //input[@value='Login']] element is clickable
+2023-09-03 08:18:32,503 [main] INFO com.project.utils.ElementUtils - clickOnElement(), invoked and clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //input[@value='Login']'
+2023-09-03 08:18:32,532 [main] INFO com.project.utils.ElementUtils - waiting for the element visibility
+2023-09-03 08:18:32,651 [main] INFO com.project.hook.MyHooks - driver  quit
+2023-09-03 08:18:32,666 [main] INFO com.project.utils.ConfigReader - read property file 
+2023-09-03 08:18:33,107 [main] INFO com.project.driverfactory.DriverFactory - chrome driver initialized
+2023-09-03 08:18:35,690 [main] INFO com.project.hook.MyHooks - url loaded in browser http://tutorialsninja.com/demo/
+2023-09-03 08:18:35,744 [main] INFO com.project.utils.ElementUtils - [[ChromeDriver: chrome on linux (2bde23d1669176f60a4ea9ee70d65d80)] -> xpath: //span[text()='My Account']] element is clickable
+2023-09-03 08:18:35,790 [main] INFO com.project.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on linux (2bde23d1669176f60a4ea9ee70d65d80)] -> xpath: //span[text()='My Account']]
+2023-09-03 08:18:35,831 [main] INFO com.project.utils.ElementUtils - [[ChromeDriver: chrome on linux (2bde23d1669176f60a4ea9ee70d65d80)] -> link text: Login] element is clickable
+2023-09-03 08:18:36,438 [main] INFO com.project.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on linux (2bde23d1669176f60a4ea9ee70d65d80)] -> link text: Login]
+2023-09-03 08:18:36,473 [main] INFO com.project.utils.ElementUtils - [[ChromeDriver: chrome on linux (2bde23d1669176f60a4ea9ee70d65d80)] -> id: input-email] element is clickable
+2023-09-03 08:18:36,568 [main] INFO com.project.utils.ElementUtils - typeTextIntoElement(), invoked and enter text  amotooricap3@gmail.com in [[ChromeDriver: chrome on linux (2bde23d1669176f60a4ea9ee70d65d80)] -> id: input-email]
+2023-09-03 08:18:36,606 [main] INFO com.project.utils.ElementUtils - [[ChromeDriver: chrome on linux (2bde23d1669176f60a4ea9ee70d65d80)] -> id: input-password] element is clickable
+2023-09-03 08:18:36,689 [main] INFO com.project.utils.ElementUtils - typeTextIntoElement(), invoked and enter text  12345 in [[ChromeDriver: chrome on linux (2bde23d1669176f60a4ea9ee70d65d80)] -> id: input-password]
+2023-09-03 08:18:36,726 [main] INFO com.project.utils.ElementUtils - [[ChromeDriver: chrome on linux (2bde23d1669176f60a4ea9ee70d65d80)] -> xpath: //input[@value='Login']] element is clickable
+2023-09-03 08:18:39,547 [main] INFO com.project.utils.ConfigReader - read property file 
+2023-09-03 08:18:39,947 [main] INFO com.project.driverfactory.DriverFactory - chrome driver initialized
+2023-09-03 08:18:41,952 [main] INFO com.project.hook.MyHooks - url loaded in browser http://tutorialsninja.com/demo/
+2023-09-03 08:18:41,991 [main] INFO com.project.utils.ElementUtils - [[ChromeDriver: chrome on linux (eb0aeb5e015504b2ef36f444e3219c6f)] -> xpath: //span[text()='My Account']] element is clickable
+2023-09-03 08:18:42,033 [main] INFO com.project.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on linux (eb0aeb5e015504b2ef36f444e3219c6f)] -> xpath: //span[text()='My Account']]
+2023-09-03 08:18:42,072 [main] INFO com.project.utils.ElementUtils - [[ChromeDriver: chrome on linux (eb0aeb5e015504b2ef36f444e3219c6f)] -> link text: Login] element is clickable
+2023-09-03 08:18:42,300 [main] INFO com.project.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on linux (eb0aeb5e015504b2ef36f444e3219c6f)] -> link text: Login]
+2023-09-03 08:18:42,301 [main] INFO com.project.utils.CommonUtils - getEmailWithTimeStamp() invoked and returning new email newemailSun_Sep_03_08_18_42_IST_2023@gmail.com
+2023-09-03 08:18:42,336 [main] INFO com.project.utils.ElementUtils - [[ChromeDriver: chrome on linux (eb0aeb5e015504b2ef36f444e3219c6f)] -> id: input-email] element is clickable
+2023-09-03 08:18:42,440 [main] INFO com.project.utils.ElementUtils - typeTextIntoElement(), invoked and enter text  newemailSun_Sep_03_08_18_42_IST_2023@gmail.com in [[ChromeDriver: chrome on linux (eb0aeb5e015504b2ef36f444e3219c6f)] -> id: input-email]
+2023-09-03 08:18:42,475 [main] INFO com.project.utils.ElementUtils - [[ChromeDriver: chrome on linux (eb0aeb5e015504b2ef36f444e3219c6f)] -> id: input-password] element is clickable
+2023-09-03 08:18:42,559 [main] INFO com.project.utils.ElementUtils - typeTextIntoElement(), invoked and enter text  1234567890 in [[ChromeDriver: chrome on linux (eb0aeb5e015504b2ef36f444e3219c6f)] -> id: input-password]
+2023-09-03 08:18:42,592 [main] INFO com.project.utils.ElementUtils - [[ChromeDriver: chrome on linux (eb0aeb5e015504b2ef36f444e3219c6f)] -> xpath: //input[@value='Login']] element is clickable
+2023-09-03 08:18:42,889 [main] INFO com.project.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on linux (eb0aeb5e015504b2ef36f444e3219c6f)] -> xpath: //input[@value='Login']]
+2023-09-03 08:18:42,921 [main] INFO com.project.utils.ElementUtils - [[ChromeDriver: chrome on linux (eb0aeb5e015504b2ef36f444e3219c6f)] -> xpath: //div[contains(@class,'alert-dismissible')]] element is clickable
+2023-09-03 08:18:42,936 [main] INFO com.project.utils.ElementUtils - getting text from webpage Warning: No match for E-Mail Address and/or Password.
+2023-09-03 08:18:43,048 [main] INFO com.project.hook.MyHooks - driver  quit
+2023-09-03 08:18:43,065 [main] INFO com.project.utils.ConfigReader - read property file 
+2023-09-03 08:18:43,515 [main] INFO com.project.driverfactory.DriverFactory - chrome driver initialized
+2023-09-03 08:24:02,771 [main] INFO com.project.utils.ConfigReader - read property file 
+2023-09-03 08:24:03,808 [main] INFO com.project.driverfactory.DriverFactory - chrome driver initialized
+2023-09-03 08:24:06,115 [main] INFO com.project.hook.MyHooks - url loaded in browser http://tutorialsninja.com/demo/
+2023-09-03 08:24:06,188 [main] INFO com.project.utils.ElementUtils - [[ChromeDriver: chrome on linux (7dc6cc66ef28f4fe911cbb3e70ca1676)] -> xpath: //span[text()='My Account']] element is clickable
+2023-09-03 08:24:06,237 [main] INFO com.project.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on linux (7dc6cc66ef28f4fe911cbb3e70ca1676)] -> xpath: //span[text()='My Account']]
+2023-09-03 08:24:06,287 [main] INFO com.project.utils.ElementUtils - [[ChromeDriver: chrome on linux (7dc6cc66ef28f4fe911cbb3e70ca1676)] -> link text: Login] element is clickable
+2023-09-03 08:24:06,749 [main] INFO com.project.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on linux (7dc6cc66ef28f4fe911cbb3e70ca1676)] -> link text: Login]
+2023-09-03 08:24:06,791 [main] INFO com.project.utils.ElementUtils - [[ChromeDriver: chrome on linux (7dc6cc66ef28f4fe911cbb3e70ca1676)] -> id: input-email] element is clickable
+2023-09-03 08:24:06,890 [main] INFO com.project.utils.ElementUtils - typeTextIntoElement(), invoked and enter text  amotooricap1@gmail.com in [[ChromeDriver: chrome on linux (7dc6cc66ef28f4fe911cbb3e70ca1676)] -> id: input-email]
+2023-09-03 08:24:06,931 [main] INFO com.project.utils.ElementUtils - [[ChromeDriver: chrome on linux (7dc6cc66ef28f4fe911cbb3e70ca1676)] -> id: input-password] element is clickable
+2023-09-03 08:24:07,014 [main] INFO com.project.utils.ElementUtils - typeTextIntoElement(), invoked and enter text  12345 in [[ChromeDriver: chrome on linux (7dc6cc66ef28f4fe911cbb3e70ca1676)] -> id: input-password]
+2023-09-03 08:24:07,052 [main] INFO com.project.utils.ElementUtils - [[ChromeDriver: chrome on linux (7dc6cc66ef28f4fe911cbb3e70ca1676)] -> xpath: //input[@value='Login']] element is clickable
