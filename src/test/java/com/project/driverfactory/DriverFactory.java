@@ -13,6 +13,8 @@ import org.openqa.selenium.safari.SafariDriver;
 
 import com.project.utils.CommonUtils;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 
 public class DriverFactory {
@@ -23,9 +25,12 @@ public class DriverFactory {
 	public static WebDriver initializeBrowser(String browserName) {
 		
 		if(browserName.equals("chrome")) {
-			ChromeOptions co = new ChromeOptions();
-			co.setBrowserVersion("115");
-			driver = new ChromeDriver(co);
+			//ChromeOptions co = new ChromeOptions();
+			//co.setBrowserVersion("115");
+			WebDriverManager.chromedriver().setup();
+			
+			 driver = new ChromeDriver();
+		
 			logger.info("chrome driver initialized");
 			
 		}else if(browserName.equals("firefox")) {
